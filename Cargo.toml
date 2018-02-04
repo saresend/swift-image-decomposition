@@ -1,0 +1,10 @@
+[package]
+name = "swift-image-ffi"
+version = "0.1.0"
+authors = ["Samuel Resendez <saresend@usc.edu>"]
+
+[dependencies]
+libc = "0.2.36"
+
+[lib]
+crate-type=["staticlib"]
